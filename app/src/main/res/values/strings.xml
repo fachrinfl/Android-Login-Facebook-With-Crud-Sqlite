@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test Android Developer</string>
+    <string name="facebook_app_id">137993400121053</string>
+    <string name="fb_login_protocol_scheme">fb137993400121053</string>
+</resources>
