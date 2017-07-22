@@ -96,15 +96,15 @@ public class Adapter_Crud extends RecyclerView.Adapter<CrudViewHolder>{
                 edt_name.setTypeface(Typeface.createFromAsset(context.getAssets(), "fonts/palanquin/Palanquin-Light.ttf"));
                 edt_name.setTextSize(18);
 
-                edt_email.setText(singleProduct.getPhone());
-                edt_email.setTextColor(Color.parseColor("#6190E8"));
-                edt_email.setTypeface(Typeface.createFromAsset(context.getAssets(), "fonts/palanquin/Palanquin-Light.ttf"));
-                edt_email.setTextSize(18);
-
-                edt_phone.setText(singleProduct.getEmail());
+                edt_phone.setText(singleProduct.getPhone());
                 edt_phone.setTextColor(Color.parseColor("#6190E8"));
                 edt_phone.setTypeface(Typeface.createFromAsset(context.getAssets(), "fonts/palanquin/Palanquin-Light.ttf"));
                 edt_phone.setTextSize(18);
+
+                edt_email.setText(singleProduct.getEmail());
+                edt_email.setTextColor(Color.parseColor("#6190E8"));
+                edt_email.setTypeface(Typeface.createFromAsset(context.getAssets(), "fonts/palanquin/Palanquin-Light.ttf"));
+                edt_email.setTextSize(18);
 
 
                 new MaterialStyledDialog.Builder(context)
