@@ -136,8 +136,8 @@ public class Adapter_Crud extends RecyclerView.Adapter<CrudViewHolder>{
                                             .setMessage("Data was successfully updated")
                                             .setDuration(3000)
                                             .sneakSuccess();
-                                    ((Activity)context).finish();
-                                    context.startActivity(((Activity)context).getIntent());
+                                            ((Activity)context).finish();
+                                            context.startActivity(((Activity)context).getIntent());
 
                                 }
 

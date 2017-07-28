@@ -1,5 +1,6 @@
 package id.my.fachrinaufal.app.testandroiddeveloper;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -163,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
                                 public void onClick(View v) {
                                     new BottomDialog.Builder(MainActivity.this)
                                             .setTitle("Logout")
-                                            .setContent("Do you want to close your account and exit this app ?")
+                                            .setContent("Do you want to close your account ?")
                                             .setPositiveText("Yes")
                                             .onPositive(new BottomDialog.ButtonCallback() {
                                                 @Override
@@ -172,6 +173,7 @@ public class MainActivity extends AppCompatActivity {
                                                     LoginManager.getInstance().logOut();
                                                     processFacebookLogin();
                                                     finish();
+                                                    startActivity(getIntent());
                                                 }
                                             })
                                             .setNegativeText("No")

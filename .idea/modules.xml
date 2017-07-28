@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestAndroidDeveloper.iml" filepath="$PROJECT_DIR$/TestAndroidDeveloper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-facebooklogin-crudsqlite.iml" filepath="$PROJECT_DIR$/android-facebooklogin-crudsqlite.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/bottomdialoglibrary/bottomdialoglibrary.iml" filepath="$PROJECT_DIR$/bottomdialoglibrary/bottomdialoglibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/materialdialoglibrary/materialdialoglibrary.iml" filepath="$PROJECT_DIR$/materialdialoglibrary/materialdialoglibrary.iml" />
